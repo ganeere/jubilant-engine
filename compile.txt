@@ -1,0 +1,33 @@
+
+
+
+Compilation Code:
+
+	nasm -f elf32 ngram_asm.asm -o ngram_asm.o 
+	gcc -m32 -o c_ngram.exe ngram_asm.o c_ngram.c
+	./c_ngram.exe
+
+
+
+Or with a single line, it can be compiled and run:
+
+	nasm -f elf32 ngram_asm.asm -o ngram_asm.o && gcc -m32 -o c_ngram.exe ngram_asm.o c_ngram.c && ./c_ngram.exe
+
+
+
+Notes: 
+
+	Data is formated as tab separated and coded as such in C source code file.
+
+Example Output is :
+
+similarity between martha-marhta is:  14
+similarity between numerator-denominator is:  20
+similarity between development-enhancement is:  6
+similarity between system-system is:  100
+similarity between xyxyxyxyxyxyxyxyxy-yxyxyxyxyxyxyxyxyx is:  100
+similarity between sadasdasdsafsadasdssadsadsadasadsad-asdsadsafdsadsadsadsadsasadsadasdsad is:  100
+similarity between hgdasghjdgahdgjsajgdsajhdsgjah-twqyuetuqwyetqwyuteqwy is:  0
+similarity between sadasdasdsafsadasdssadsadsadasadsad-sadasdasdsafsadasdssadsadsadasadsad is:  100
+similarity between wqdsaewqaddsqweasqwadsewqdfaewqsae-wqdsaewqaddsqweasqwadsewqdfaewewdqwd is:  9
+similarity between deney-sonuc is:  0

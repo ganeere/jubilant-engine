@@ -1,0 +1,10 @@
+3	martha	marhta
+2	numerator	denominator
+4	development	enhancement
+6	system	system
+2	xyxyxyxyxyxyxyxyxy	yxyxyxyxyxyxyxyxyx
+3	sadasdasdsafsadasdssadsadsadasadsad	asdsadsafdsadsadsadsadsasadsadasdsad
+4	hgdasghjdgahdgjsajgdsajhdsgjah	twqyuetuqwyetqwyuteqwy
+25	sadasdasdsafsadasdssadsadsadasadsad	sadasdasdsafsadasdssadsadsadasadsad
+30	wqdsaewqaddsqweasqwadsewqdfaewqsae	wqdsaewqaddsqweasqwadsewqdfaewewdqwd
+5	deney	sonuc
